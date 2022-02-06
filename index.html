@@ -688,7 +688,7 @@
                 <label for="hitDice">Hit Dice</label><br>
                 <input type="text" id="hitDice"><br>
                 </fieldset><br>
-                
+
                 <fieldset>
                 <label for="deathSave">Death Saves</label><br>
                 <label for="deathSavePass1" for="deathSavePass2" for="deathSavePass3">Success</label>
@@ -701,7 +701,46 @@
                 <input type="checkbox" id="deathSaveFail3"><br>
             </fieldset>
         </form>
-    </div>
+    </div><br>
 
+    <div class="attack&Spellcast">
+        <form id="cAttackSpellcast">
+            <fieldset>
+                <label for="attack1">Name</label>
+                <input type="text" id="attack1">
+                <input type="text" id="dmg1"><br>
+                <label for="attack2">Name</label>
+                <input type="text" id="attack2">
+                <input type="text" id="dmg2"><br>
+                <label for="attack3">Name</label>
+                <input type="text" id="attack3">
+                <input type="text" id="dmg3"><br>
+                <textarea id="attackDesc">Descriptions?</textarea>
+            </fieldset>
+        </form>
+    </div><br>
+
+    <div class="otherProficiencies">
+        <form id="cAltProficiences">
+            <fieldset>
+                <legend>Other Proficiencies & Languages</legend>
+                <textarea></textarea>
+            </fieldset>
+        </form>
+    </div><br>
+
+    <div class="equipment">
+        <form id="cEquipment">
+            <fieldset>
+                <legend>Equipment</legend>
+                <input type="text" id="CP"><br>
+                <input type="text" id="SP"><br>
+                <input type="text" id="EP"><br>
+                <input type="text" id="GP"><br>
+                <input type="text" id="PP"><br>
+                <textarea></textarea>
+            </fieldset>
+        </form>
+    </div>
 </body>
 </html>
